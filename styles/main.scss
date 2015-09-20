@@ -12,6 +12,8 @@ hr {
 }
 body {
   background-color: RGBA(240, 240, 240, 1);
+  font-weight: 300;
+  margin: 0;
 }
 footer {
   text-align: center;
@@ -48,20 +50,21 @@ footer {
 
 @media screen and (max-width: 375px){
   header {
-    height: 110px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 360px;
   }
   .madmobile {
     width: 100px;
-    margin-top: 15px;
+    margin-top: 10px;
+    display: inline-block;
   }
   .toplink1 {
     text-decoration: none;
     color: RGBA(136, 145, 152, 1);
     width: 75px;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 65px;
     margin-bottom: 0;
     // position: absolute;
   }
@@ -72,32 +75,48 @@ footer {
     margin: 0;
     display: inline-block;
   }
-  button {
-    margin: 0;
-    background-color: RGBA(95, 108, 117, 1);
+  input {
+    width: 65%;
+    background-color: RGBA(240, 240, 240, 1);
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    display: inline-block;
   }
-  body {
-    
+  button {
+    width: 25%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: RGBA(95, 108, 117, 1);
+    display: inline-block;
   }
   .item-actual {
     margin: 10px;
     width: 145px;
+  }
+  body {
+    width: 375px;
   }
   .item-overview {
     background-color: RGBA(255, 255, 255, 1);
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 5px;
-    width: 164px;
-    display: inline-block;
+    width: 172.5px;
+    display: inline-table;
   }
   .item-overview2 {
     background-color: RGBA(255, 255, 255, 1);
     margin-left: 5px;
     margin-top: 10px;
     margin-right: 10px;
-    width: 164px;
-    display: inline-block;
+    width: 172.5px;
+    display: inline-table;
     float: right;
   }
   .item-description {
@@ -132,15 +151,6 @@ footer {
   border-width: 1px;
   border-style: solid;
 }
-  input {
-    background-color: RGBA(240, 240, 240, 1);
-    margin-right: 0;
-    margin-bottom: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 40px;
-    padding-left: 10px;
-  }
   .moreButton {
     color: white;
     background-image:
@@ -154,6 +164,10 @@ footer {
     border-color: RGBA(77, 87, 95, 1);
     border-style: solid;
     border-width: 2px;
+    display: inline-block;
+    margin-left: 97.5px;
+    margin-right: 97.5px;
+    box-shadow: inset 0 0 5px RGBA(159, 173, 183, 1);
   }
   footer {
     font-size: .75em;
@@ -162,6 +176,6 @@ footer {
     border-top-color: RGBA(221, 221, 221, 1);
     border-top-style: solid;
     border-top-width: 1px;
-    position: relative;
+    width: 375px;
   }
 }
