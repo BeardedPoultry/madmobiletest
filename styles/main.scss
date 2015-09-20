@@ -1,35 +1,42 @@
-@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
-@import '../bower_components/neat/app/assets/stylesheets/neat';
+// @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+// @import '../bower_components/neat/app/assets/stylesheets/neat';
 
 // Typography
-$base-font-family: $helvetica;
+// $base-font-family: $helvetica;
 
-// Colors
-$blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
-$very-light-gray: #fafafa;
-
-$base-font-color: $dark-gray;
-$base-background-color: $very-light-gray;
 header, footer {
   background-color: RGBA(255, 255, 255, 1);
 }
+hr {
+  background-color: lightgray;
+}
 body {
-  font-family: $base-font-family;
   background-color: RGBA(240, 240, 240, 1);
-  color: $base-font-color;
+}
+footer {
+  text-align: center;
+}
+.site-links {
+  color: RGBA(245, 123, 0, 1);
+  text-decoration: none;
 }
 .price {
   color: RGBA(203, 13, 0, 1);
+}
+.strikethrough {
+  text-decoration: solid;
+}
+.addButton {
+  width: 40%;
+  height: 60px;
+  background-color: RGBA(246, 107, 3, 1); 
 }
 // ************************************************************//
 //*******************For Desktop Css Stylings******************//
 
 @media screen and (max-width: 1024px){
   body {
-    background-color: green;
+    
   }
 }
 // ************************************************************//
@@ -37,14 +44,58 @@ body {
 
 @media screen and (max-width: 650px){
   body {
-    background-color: pink;
+    
   }
 }
 // ************************************************************//
 //*******************For Mobile Css Stylings******************//
 
 @media screen and (max-width: 375px){
+  header {
+    height: 120px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .madmobile {
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 70px;
+  }
+  .toplink1 {
+    text-decoration: none;
+    color: RGBA(136, 145, 152, 1);
+    margin-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 50px;
+    height: 60px;
+    // position: absolute;
+  }
+  .toplink2 {
+    text-decoration: none;
+    color: RGBA(136, 145, 152, 1);
+    margin-top: 30px;
+    position: relative;
+  }
+  button {
+    margin: 0;
+    background-color: RGBA(95, 108, 117, 1);
+  }
   body {
-    background-color: red;
+    
+  }
+  input {
+    background-color: RGBA(240, 240, 240, 1);
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+  }
+  footer {
+    font-size: .75em;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
