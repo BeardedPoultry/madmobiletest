@@ -13,9 +13,38 @@ $very-light-gray: #fafafa;
 
 $base-font-color: $dark-gray;
 $base-background-color: $very-light-gray;
-
+header, footer {
+  background-color: RGBA(255, 255, 255, 1);
+}
 body {
   font-family: $base-font-family;
-  background-color: $base-background-color;
+  background-color: RGBA(240, 240, 240, 1);
   color: $base-font-color;
+}
+.price {
+  color: RGBA(203, 13, 0, 1);
+}
+// ************************************************************//
+//*******************For Desktop Css Stylings******************//
+
+@media screen and (max-width: 1024px){
+  body {
+    background-color: green;
+  }
+}
+// ************************************************************//
+//*******************For Tablet Css Stylings******************//
+
+@media screen and (max-width: 650px){
+  body {
+    background-color: pink;
+  }
+}
+// ************************************************************//
+//*******************For Mobile Css Stylings******************//
+
+@media screen and (max-width: 375px){
+  body {
+    background-color: red;
+  }
 }

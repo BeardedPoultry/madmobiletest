@@ -1,0 +1,4 @@
+this["JST"] = this["JST"] || {};
+this["JST"]["application"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "<header>\n	<img class=\"madmobile\" src=\"\" alt=\"\">\n	<li>\n		<ul>Menu</ul>\n		<ul>Cart</ul>\n	</li>\n	<hr>\n	<input type=\"text\" placeholder=\"Enter Keyword\">\n	<button>Search</button>\n</header>\n<body>\n	<li>\n		<ul>\n			<img src=\"\" alt=\"\">\n			<p>Lorem Ipsum dolor sit amet, tur elit.</p>\n			<p class=\"price\">$50.99</p>\n			<p class=\"strikethrough\">$60.99</p>\n		</ul>\n	</li>\n</body>\n<footer>\n	<p>&copy MadMobile.com</p>\n	<a href=\"#\">Privacy Policy</a>\n	<a href=\"#\">Terms & Conditions</a>\n</footer>";
+},"useData":true});
