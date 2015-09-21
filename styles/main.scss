@@ -252,16 +252,22 @@ footer {
   .toplink1 {
     text-decoration: none;
     color: RGBA(136, 145, 152, .8);
+    background-color: RGBA(255, 255, 255, 1);
     width: 75px;
     display: inline-block;
     margin-left: 70px;
     margin-top: 30px;
     margin-bottom: 0;
     position: absolute;
+    border-width: 0;
+  }
+  .toplink1:focus {
+    color:RGBA(238, 113, 23, 1);
   }
   .toplink2 {
     text-decoration: none;
     color: RGBA(136, 145, 152, 1);
+    background-color: RGBA(255, 255, 255, 1);
     width: 50px;
     margin: 0;
     display: inline-block;
@@ -269,6 +275,10 @@ footer {
     margin-left: 175px;
     margin-bottom: 0;
     position: absolute;
+    border-width: 0;
+  }
+  .toplink2:focus {
+    color:RGBA(238, 113, 23, 1);
   }
   input {
     width: 75%;
