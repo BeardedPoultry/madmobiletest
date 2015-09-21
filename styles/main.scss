@@ -57,24 +57,46 @@ footer {
   header {
     height: 75px;
   }
-  
-  body {
-    
+  .madmobile {
+    padding-top: 10px;
   }
   .toplink1 {
     position: absolute;
     margin-top: 30px;
     left: 660px;
-    color: RGBA(136, 145, 152, 1);
+    color: RGBA(136, 145, 152, .8);
     font-size: 80%;
   }
   .toplink2 {
     position: absolute;
     margin-top: 30px;
     left: 720px;
-    color: RGBA(136, 145, 152, 1);
+    color: RGBA(136, 145, 152, .8);
     font-size: 80%;
   }
+  .searchfield {
+    background-color: RGBA(240, 240, 240, 1);
+    font-size: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-right: 200px;
+  }
+  .searchbutton {
+  background-color: RGBA(96, 109, 118, 1);
+  color: white;
+  font-size: 60%;
+  font-weight: 100;
+  width: 60px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 380px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
   .toplink {
     position: absolute;
     z-index: 1;
@@ -107,10 +129,10 @@ footer {
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 80px;
+    width: 90px;
   }
   .item-description {
-    color: RGBA(102, 102, 102, 1);
+    color: RGBA(102, 102, 102, .8);
     margin-left: 10px;
     margin-top: 0;
     margin-right: 10px;
