@@ -1,12 +1,19 @@
 <header>
 	<img class="madmobile" src="dist/img/madmobile.png" alt="">
-	<span class="toplink1" href="#">Menu</span>
-	<span class="toplink2">Cart</span>
+	<button class="toplink1 show-menu" href="#">Menu</button>
+	<button class="toplink2" href="#">Cart</button>
 	<hr class="separationcut">
 	<input class="searchfield" type="text" placeholder="Enter Keyword">
 	<button class="searchbutton">Search</button>
 </header>
 <body>
+	<ul class="menu-items">
+    <li class="menu-li">Menu Item 1</li>
+    <li class="menu-li">Menu Item 2</li>
+    <li class="menu-li">Menu Item 3</li>
+	<li class="menu-li">Menu Item 4</li>
+	<li class="menu-li">Menu Item 5</li>
+  </ul>
 	<div class="toplink" href="#">TOP</div>
 	<div class="column1">
 		<div class="item-overview">
@@ -46,7 +53,7 @@
 			<p class="strikethrough">$60.99</p>
 			<button class="addButton">Add to Cart</button>
 		</div>
-		<div class="item-overview" >
+		<div class="item-overview" id="hidden">
 			<img class="item-actual" src="dist/img/ipad.png" alt="">
 			<p class="item-description">Lorem Ipsum dolor sit amet, tur elit.</p>
 			<p class="price">$50.99</p>
@@ -69,7 +76,7 @@
 			<p class="strikethrough">$60.99</p>
 			<button class="addButton">Add to Cart</button>
 		</div>
-		<div class="item-overview">
+		<div class="item-overview" id="hidden">
 			<img class="item-actual" src="dist/img/ipad.png" alt="">
 			<p class="item-description">Lorem Ipsum dolor sit amet, tur elit.</p>
 			<p class="price">$50.99</p>
@@ -92,7 +99,7 @@
 			<p class="strikethrough">$60.99</p>
 			<button class="addButton">Add to Cart</button>
 		</div>
-		<div class="item-overview">
+		<div class="item-overview" id="hidden">
 			<img class="item-actual" src="dist/img/ipad.png" alt="">
 			<p class="item-description">Lorem Ipsum dolor sit amet, tur elit.</p>
 			<p class="price">$50.99</p>

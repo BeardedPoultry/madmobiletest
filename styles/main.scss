@@ -43,6 +43,7 @@ footer {
     margin-top: 0;
     text-decoration: line-through;
   }
+  
 
 // ************************************************************//
 //*******************For Desktop Css Stylings******************//
@@ -67,14 +68,24 @@ footer {
     margin-top: 30px;
     left: 660px;
     color: RGBA(136, 145, 152, .8);
+    background-color: RGBA(255, 255, 255, 1);
     font-size: 80%;
+    border-width: 0;
+  }
+  .toplink1:focus {
+    color:RGBA(238, 113, 23, 1);
   }
   .toplink2 {
     position: absolute;
     margin-top: 30px;
     left: 720px;
     color: RGBA(136, 145, 152, .8);
+    background-color: RGBA(255, 255, 255, 1);
     font-size: 80%;
+    border-width: 0;
+  }
+  .toplink2:focus {
+    color: RGBA(238, 113, 23, 1);
   }
   .searchfield {
     background-color: RGBA(240, 240, 240, 1);
@@ -95,11 +106,35 @@ footer {
   width: 60px;
   position: absolute;
   margin-top: 25px;
-  margin-left: 380px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-left: 375px;
+  padding-top: 6px;
+  padding-bottom: 8px;
   border-width: 0;
   
+}
+.menu-items {
+  max-height: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  background-color: RGBA(95, 108, 117, 1);
+  transition: max-height 600ms ease-in-out;
+  z-index: 1;
+  font-size: 80%
+}
+.menu-items li {
+  display: inline-block;
+}
+.menu-li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.is-active {
+  max-height: 500px;
+  padding-top: 25px;
+  height: 40px;
 }
   .toplink {
     position: absolute;
@@ -126,7 +161,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 10px;
     width: 125px;
-    height: 220px;
+    height: 230px;
   }
   .item-actual {
     margin-left: 20px;
@@ -266,6 +301,35 @@ footer {
   left: -5px;
   position: absolute;
 }
+.menu-items {
+  max-height: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  background-color: RGBA(95, 108, 117, 1);
+  transition: max-height 600ms ease-in-out;
+  z-index: 2;
+  font-size: 80%
+}
+.menu-items li {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom-color: RGBA(146, 154, 161, 1);
+  border-bottom-style: solid;
+  border-bottom-width: 100%;
+}
+.menu-li {
+
+}
+.is-active {
+  max-height: 500px;
+  height: 237px;
+}
   .item-actual {
     margin-left: 20px;
     margin-top: 20px;
@@ -372,7 +436,6 @@ footer {
   .column2,
   .column3 {
     margin: 0;
-    float: right;
     display: inline-block;
   }
   #hidden {
