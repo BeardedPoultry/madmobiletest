@@ -18,6 +18,8 @@ header, footer {
 }
 hr {
   background-color: lightgray;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 body {
   background-color: RGBA(240, 240, 240, 1);
@@ -207,17 +209,18 @@ footer {
   .madmobile {
     width: 100px;
     margin-top: 10px;
+    margin-bottom: 10px;
     display: inline-block;
   }
   .toplink1 {
     text-decoration: none;
-    color: RGBA(136, 145, 152, 1);
+    color: RGBA(136, 145, 152, .8);
     width: 75px;
     display: inline-block;
-    margin-left: 65px;
+    margin-left: 70px;
+    margin-top: 30px;
     margin-bottom: 0;
-    
-    // position: absolute;
+    position: absolute;
   }
   .toplink2 {
     text-decoration: none;
@@ -225,27 +228,42 @@ footer {
     width: 50px;
     margin: 0;
     display: inline-block;
+    margin-top: 30px;
+    margin-left: 175px;
+    margin-bottom: 0;
+    position: absolute;
   }
   input {
-    width: 65%;
+    width: 75%;
     background-color: RGBA(240, 240, 240, 1);
+    margin-left: 10px;
     margin-right: 0;
-    margin-bottom: 10px;
-    padding-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
     display: inline-block;
+    border-width: 0;
+    border-color: RGBA(204, 204, 204, 1);
   }
-  button {
-    width: 25%;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-    background-color: RGBA(95, 108, 117, 1);
-    display: inline-block;
+  .separationcut {
+    margin-bottom: 20px;
   }
+  .searchbutton {
+  background-color: RGBA(96, 109, 118, 1);
+  color: white;
+  font-size: 80%;
+  font-weight: 100;
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 285px;
+  border-width: 0;
+  left: -5px;
+  position: absolute;
+}
   .item-actual {
     margin: 10px;
     width: 145px;
@@ -253,12 +271,22 @@ footer {
   body {
     width: 375px;
   }
+  .toplink {
+    position: absolute;
+    margin: 0;
+    margin-left: 335px;
+    width: 40px;
+    z-index: 1;
+    background-color: RGBA(95, 108, 117, .8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
   .item-overview {
     background-color: RGBA(255, 255, 255, 1);
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 5px;
-    width: 172.5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 147px;
     display: inline-table;
   }
   .item-description {
@@ -330,5 +358,8 @@ footer {
     margin: 0;
     float: right;
     display: inline-block;
+  }
+  #hidden {
+    display: none;
   }
 }
