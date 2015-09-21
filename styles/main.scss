@@ -13,6 +13,9 @@ header, footer {
     margin-left: 10px;
     display: inline-block;
   }
+.searchbutton {
+  background-color: RGBA(96, 109, 118, 1);
+}
 hr {
   background-color: lightgray;
 }
@@ -58,6 +61,33 @@ footer {
   body {
     
   }
+  .toplink1 {
+    position: absolute;
+    margin-top: 30px;
+    left: 660px;
+    color: RGBA(136, 145, 152, 1);
+    font-size: 80%;
+  }
+  .toplink2 {
+    position: absolute;
+    margin-top: 30px;
+    left: 720px;
+    color: RGBA(136, 145, 152, 1);
+    font-size: 80%;
+  }
+  .toplink {
+    position: absolute;
+    z-index: 1;
+    left: 728px;
+    top: 460px;
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 60%;
+    background-color: RGBA(95, 107, 117, 1);
+    color: lightgrey;
+  }
   .column1,
   .column2,
   .column3 {
@@ -66,22 +96,25 @@ footer {
   }
   .item-overview {
     background-color: RGBA(255, 255, 255, 1);
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 140px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 125px;
+    height: 220px;
   }
   .item-actual {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100px;
+    width: 80px;
   }
   .item-description {
     color: RGBA(102, 102, 102, 1);
     margin-left: 10px;
     margin-top: 0;
     margin-right: 10px;
+    font-size: 72%;
   }
   .price {
     margin-left: 10px;
@@ -89,8 +122,10 @@ footer {
     padding-bottom: 0;
   }
   .addButton {
-  width: 121.6px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
+  font-size: 70%;
+  font-weight: 200;
   color: white;
   background-image:
     linear-gradient(
@@ -99,7 +134,7 @@ footer {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 2px;
   border-color: RGBA(213, 91, 2, 1);
   border-width: 1px;
   border-style: solid;
@@ -116,12 +151,13 @@ footer {
     text-align: center;
     border-color: RGBA(77, 87, 95, 1);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 30px;
     box-shadow: inset 0 0 5px RGBA(159, 173, 183, 1);
     border-radius: 4px;
-    font-size: 90%;
+    font-size: 80%;
   }
   hr {
     display: none;
@@ -131,7 +167,7 @@ footer {
     font-size: 60%;
   }
   .madmobilecopy {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 5px;
     margin-bottom: 0;
   }
@@ -144,8 +180,7 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
     width: 360px;
-    position: fixed;
-    margin-bottom: 150px;
+    // position: fixed;
   }
   .madmobile {
     width: 100px;
