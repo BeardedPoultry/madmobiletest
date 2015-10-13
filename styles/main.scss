@@ -21,6 +21,9 @@ hr {
   margin-left: 10px;
   margin-right: 10px;
 }
+ul {
+  list-style-type: none;
+}
 body {
   background-color: RGBA(240, 240, 240, 1);
   font-weight: 300;
@@ -71,8 +74,9 @@ footer {
     background-color: RGBA(255, 255, 255, 1);
     font-size: 80%;
     border-width: 0;
+    border-radius: 6px;
   }
-  .toplink1:focus {
+  .toplink1::focus {
     color:RGBA(238, 113, 23, 1);
   }
   .toplink2 {
@@ -120,7 +124,7 @@ footer {
   overflow: hidden;
   color: white;
   background-color: RGBA(95, 108, 117, 1);
-  transition: max-height 600ms ease-in-out;
+  transition: max-height 600ms ease 0ms;
   z-index: 1;
   font-size: 80%
 }
@@ -332,9 +336,6 @@ footer {
   border-bottom-color: RGBA(146, 154, 161, 1);
   border-bottom-style: solid;
   border-bottom-width: 100%;
-}
-.menu-li {
-
 }
 .is-active {
   max-height: 500px;
